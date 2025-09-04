@@ -86,7 +86,7 @@ namespace Calculator
 
         private void btnIs_Click(object sender, EventArgs e)
         {
-            string input = txtTotal.Text.Replace(',', '.')
+            string input = txtTotal.Text.Replace(',', '.'); 
             int operatorIndex = -1;
 
             if (option == "+") operatorIndex = input.IndexOf('+');
